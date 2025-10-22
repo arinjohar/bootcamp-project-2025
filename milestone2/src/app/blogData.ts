@@ -1,4 +1,4 @@
-type Blog = {
+export interface Blog {
     title: string;
     date: string;
     description: string;
@@ -25,3 +25,5 @@ const blogs: Blog[] = [
         slug: "blog2.html",
     },
 ];
+
+export default blogs;
